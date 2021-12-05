@@ -14,11 +14,11 @@ Format d'execution: `./philo nombre_philosophe temps_avant_de_mourir temps_pour_
 
 Exemple:
 
-`Make`
+```Make
 
-`./philo 3 210 100 100`
+./philo 3 210 100 100
 
-```0 1 has taken a fork
+0 1 has taken a fork
 0 1 has taken a fork
 0 1 is eating
 0 3 has taken a fork

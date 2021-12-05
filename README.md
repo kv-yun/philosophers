@@ -6,7 +6,7 @@ Projet en C ayant pour but de nous faire découvrir la programmation multithread
 
 Compilation: `Make`
 
-Format d'execution: `./philo nombre_philosophe temps_avant_de_mourir temps_pour_manger temps_pour_dormir`
+Format d'execution: `./philo nombre_philosophe temps_avant_de_mourir_ms temps_pour_manger_ms temps_pour_dormir_ms`
 
 # resultat
 
@@ -14,7 +14,8 @@ Format d'execution: `./philo nombre_philosophe temps_avant_de_mourir temps_pour_
 
 Exemple:
 
-```Make
+```
+Make
 
 ./philo 3 210 100 100
 
@@ -31,4 +32,5 @@ Exemple:
 200 2 has taken a fork
 200 2 is eating
 200 1 has taken a fork
-210 1 died```
+210 1 died
+```

@@ -18,7 +18,7 @@ Exemple:
 
 `./philo 3 210 100 100`
 
-`0 1 has taken a fork
+```0 1 has taken a fork
 0 1 has taken a fork
 0 1 is eating
 0 3 has taken a fork
@@ -31,4 +31,4 @@ Exemple:
 200 2 has taken a fork
 200 2 is eating
 200 1 has taken a fork
-210 1 died`
+210 1 died```

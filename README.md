@@ -1,24 +1,24 @@
 # philosophers
 
-Projet en C ayant pour but de nous faire découvrir la programmation multithread. Pour cela nous devions réaliser une simulation du fameux problemes du Dîner des philosphes
+Projet en C ayant pour but de nous faire découvrir la programmation multithread. Pour cela nous devions réaliser une simulation du fameux probleme du Dîner des philosphes
 
 # execution
 
-Compilation: Make
+Compilation: `Make`
 
-Format d'execution: ./philo nombre_philosophe temps_avant_de_mourir temps_pour_manger temps_pour_dormir
+Format d'execution: `./philo nombre_philosophe temps_avant_de_mourir temps_pour_manger temps_pour_dormir`
 
 # resultat
 
-temps_en_ms index_philo action
+`temps_en_ms index_philo action`
 
 Exemple:
 
-Make
+`Make`
 
-./philo 3 210 100 100
+`./philo 3 210 100 100`
 
-0 1 has taken a fork
+`0 1 has taken a fork
 0 1 has taken a fork
 0 1 is eating
 0 3 has taken a fork
@@ -31,4 +31,4 @@ Make
 200 2 has taken a fork
 200 2 is eating
 200 1 has taken a fork
-210 1 died
+210 1 died`
